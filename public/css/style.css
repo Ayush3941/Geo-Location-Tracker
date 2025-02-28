@@ -3,6 +3,26 @@
 	padding: 0px;
 }
 #map{
-	width: 100%;
-	height:100%;
+	height: 100vh;
+    width: 100%;
+}
+#form{
+	 position: absolute;
+      top: 20px; /* Adjust as needed */
+            left: 20px; /* Adjust as needed */
+            max-width: 600px;
+            width: 300px;
+            height: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 200000; /* Ensures it's above the map */
+}
+.input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    border-radius: 3px;
 }
